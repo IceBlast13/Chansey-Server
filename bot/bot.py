@@ -6,10 +6,10 @@ from client.client import Client
 from nltk.tokenize import word_tokenize
 from nltk.stem import LancasterStemmer
 
-uri = "https://sandbox-authservice.priaid.ch/login"
-api_key = "alexander.cristurean@yahoo.com"
-secret_key = "q2TXc6s7HWi8t4FRr"
-healthServiceUrl = "https://sandbox-healthservice.priaid.ch"
+uri = "<uri>"
+api_key = "<api_key>"
+secret_key = "<secret_key>"
+healthServiceUrl = "<url>"
 language = "en-gb"
 Gender = Enum('Gender', 'Male Female')
 
