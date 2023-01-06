@@ -44,10 +44,10 @@ auth = firebase.auth()
 db = firebase.database()
 
 #Chat Bot Setup
-uri = "https://authservice.priaid.ch/login"
-api_key = "r4DKf_YAHOO_COM_AUT"
-secret_key = "La25Wty3G9Jgo6RXj"
-healthServiceUrl = "https://healthservice.priaid.ch"
+uri = "<uri>"
+api_key = "<key>"
+secret_key = "<key>"
+healthServiceUrl = "<service_url>"
 language = "en-gb"
 
 Client = Client(api_key, secret_key, uri, language, healthServiceUrl)
